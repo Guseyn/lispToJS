@@ -8,7 +8,7 @@ This app is implemented in Node, so you need to install Node.js(preferably the l
 ## Installation
 
 ```bash
-git clone git@github.com:onfleet/guseyn-backend-homework.git
+git clone git@github.com:Guseyn/lispToJS.git
 cd lispToJS
 npm install
 ```
