@@ -13,7 +13,6 @@ class JSFromLisp extends AsyncObject {
       try {
         return { js: lispToJS(code) }
       } catch (err) {
-        console.log(err)
         return { js: 'Not Valid Lisp' }
       }
     }

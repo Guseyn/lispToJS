@@ -184,7 +184,7 @@ function max(v1, v2) {
     "isValid": false
 }
 ```
-### /isValidLisp
+### /convertToJS
 
 **Request**
 
@@ -195,5 +195,11 @@ function max(v1, v2) {
 ```json
 {
     "js": "function max(v1, v2) {\n  if ((v1 > v2)) {\n    return v1\n  }\n  return v2\n}"
+}
+```
+
+```json
+{
+  "js": "Not Valid Lisp"
 }
 ```
