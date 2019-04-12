@@ -1,0 +1,25 @@
+{
+  "name": "guseyn-backend-homework",
+  "version": "1.0.0",
+  "description": "Lisp to JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test-executor",
+    "start": "node src/server/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onfleet/guseyn-backend-homework.git"
+  },
+  "author": "guseyn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onfleet/guseyn-backend-homework/issues"
+  },
+  "homepage": "https://github.com/onfleet/guseyn-backend-homework#readme",
+  "dependencies": {
+    "@cuties/rest": "^1.2.6",
+    "js-beautify": "^1.9.1",
+    "test-executor": "^1.2.1"
+  }
+}

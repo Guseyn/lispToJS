@@ -1,0 +1,92 @@
+body {
+  background: #ffffff;
+  color: #111111;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1.4em;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e5e5e5; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+pre::-webkit-scrollbar,
+code::-webkit-scrollbar,
+details::-webkit-scrollbar,
+summary::-webkit-scrollbar {
+  height: 2px;
+}
+
+pre {
+  width: 48%;
+  min-height: 250px;
+  outline: none;
+  overflow: auto;
+  margin-top: 1.2em;
+  font-size: 0.7em;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+code {
+  outline: none;
+  overflow: none;
+  background: transparent;
+  font-family: Consolas, 'Liberation Mono', Courier, monospace;
+  tab-size: 2;
+  white-space: pre-wrap
+}
+
+.base {
+  width: 100%;
+  height: auto;
+  clear: both;
+  margin: 0 auto;
+  padding-bottom: 4em;
+  overflow: hidden;
+}
+
+.content {
+  width: 100%;
+  height: auto;
+  clear: both;
+  background: transparent;
+  font-size: 1.14em;
+  padding: 1.16em;
+  font-family: 'PT Serif', serif;
+  word-wrap: break-word;
+}
+
+@media only screen and (min-width: 700px) {
+  .base {
+    width: 700px;
+  }
+  .menu {
+    font-size: 1.2em;
+  }
+  .content {
+    font-size: 1.2em;
+  }
+  pre {
+    font-size: 0.734em;
+  }
+}
